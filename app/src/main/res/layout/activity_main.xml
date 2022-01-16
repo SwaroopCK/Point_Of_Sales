@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/username"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Point Of Sales"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorAccent"
+            android:text="Category"
+            android:textColor="#ffff" />
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:text="Brand"
+            android:textColor="#ffff" />
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Product"
+            android:textColor="#ffff" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+
+            android:background="@color/colorAccent"
+            android:text="Category View"
+            android:textColor="#ffff" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:text="Brand View"
+            android:textColor="#ffff" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Product View"
+            android:textColor="#ffff" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+
+            android:background="@color/colorAccent"
+            android:text="Pos"
+            android:textColor="#ffff" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+
+            android:background="@color/colorPrimary"
+            android:text="PosView"
+            android:textColor="#ffff" />
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+
+            android:background="@color/colorPrimaryDark"
+            android:text="User"
+            android:textColor="#ffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/b10"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+
+            android:background="@color/colorAccent"
+            android:text="Logout"
+            android:textColor="#ffff" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
